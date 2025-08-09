@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd ..
+git clone git@github.com:permalik/aoc-python.git
