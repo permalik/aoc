@@ -6,6 +6,7 @@ repos=(
     "/home/parallels/Docs/Git/aoc-zig"
     "/home/parallels/Docs/Git/aoc-cpp"
     "/home/parallels/Docs/Git/aoc-rust"
+    "/home/parallels/Docs/Git/aoc-go"
 )
 
 commit_msg="Pre-removal auto-commit"

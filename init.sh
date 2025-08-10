@@ -6,3 +6,4 @@ git clone git@github.com:permalik/aoc-c.git
 git clone git@github.com:permalik/aoc-zig.git
 git clone git@github.com:permalik/aoc-cpp.git
 git clone git@github.com:permalik/aoc-rust.git
+git clone git@github.com:permalik/aoc-go.git

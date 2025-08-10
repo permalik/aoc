@@ -5,3 +5,4 @@ cp -r aoc /home/parallels/Docs/Git/aoc-c
 cp -r aoc /home/parallels/Docs/Git/aoc-zig
 cp -r aoc /home/parallels/Docs/Git/aoc-cpp
 cp -r aoc /home/parallels/Docs/Git/aoc-rust
+cp -r aoc /home/parallels/Docs/Git/aoc-go
