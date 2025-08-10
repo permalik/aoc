@@ -3,3 +3,4 @@
 cd ..
 rm -rf aoc-python
 rm -rf aoc-c
+rm -rf aoc-zig
