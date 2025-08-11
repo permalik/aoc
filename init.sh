@@ -9,3 +9,4 @@ git clone git@github.com:permalik/aoc-rust.git
 git clone git@github.com:permalik/aoc-go.git
 git clone git@github.com:permalik/aoc-lua.git
 git clone git@github.com:permalik/aoc-javascript.git
+git clone git@github.com:permalik/aoc-haskell.git

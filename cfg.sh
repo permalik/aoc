@@ -8,3 +8,4 @@ cp -r aoc /home/parallels/Docs/Git/aoc-rust
 cp -r aoc /home/parallels/Docs/Git/aoc-go
 cp -r aoc /home/parallels/Docs/Git/aoc-lua
 cp -r aoc /home/parallels/Docs/Git/aoc-javascript
+cp -r aoc /home/parallels/Docs/Git/aoc-haskell
