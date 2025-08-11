@@ -8,6 +8,7 @@ repos=(
     "/home/parallels/Docs/Git/aoc-rust"
     "/home/parallels/Docs/Git/aoc-go"
     "/home/parallels/Docs/Git/aoc-lua"
+    "/home/parallels/Docs/Git/aoc-javascript"
 )
 
 commit_msg="Pre-removal auto-commit"

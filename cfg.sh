@@ -7,3 +7,4 @@ cp -r aoc /home/parallels/Docs/Git/aoc-cpp
 cp -r aoc /home/parallels/Docs/Git/aoc-rust
 cp -r aoc /home/parallels/Docs/Git/aoc-go
 cp -r aoc /home/parallels/Docs/Git/aoc-lua
+cp -r aoc /home/parallels/Docs/Git/aoc-javascript
