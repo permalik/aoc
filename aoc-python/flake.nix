@@ -1,0 +1,61 @@
+{
+  description = "aoc-python";
+
+  inputs = {
+    nixpkgs.url = "github:NixOS/nixpkgs/release-24.11";
+    flake-utils.url = "github:numtide/flake-utils";
+  };
+
+  outputs = {
+    self,
+    nixpkgs,
+    flake-utils,
+  }:
+    flake-utils.lib.eachDefaultSystem (
+      system: let
+        pkgs = import nixpkgs {
+          inherit system;
+          config.allowUnfree = false;
+        };
+        myPython = pkgs.python312;
+        pythonWithPkgs = myPython.withPackages (pythonPkgs:
+          with pythonPkgs; [
+            pip
+            virtualenvwrapper
+            isort
+            black
+          ]);
+      in {
+        devShells.default = pkgs.mkShell {
+          buildInputs = [
+            pkgs.alejandra
+            pythonWithPkgs
+            pkgs.readline
+          ];
+
+          shellHook = ''
+            cd aoc-python
+
+            VENV=.venv
+            if [ ! -d $VENV ]; then
+                virtualenv $VENV
+            fi
+            source ./$VENV/bin/activate
+            echo "Python virtual environment activated."
+
+            . .bashrc
+          '';
+        };
+        packages.default = pkgs.stdenv.mkDerivation {
+          name = "aoc-python";
+          src = ./.;
+          buildInputs = [pythonWithPkgs];
+
+          propagatedBuildInputs = with myPython.pkgs; [
+            black
+            isort
+          ];
+        };
+      }
+    );
+}
