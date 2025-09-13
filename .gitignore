@@ -1,0 +1,37 @@
+# Dune build artifacts
+**/_build/
+*.install
+*.merlin
+*.cmi
+*.cmo
+*.cmx
+*.cmxa
+*.cma
+*.o
+*.a
+*.so
+*.exe
+
+# OPAM / local environment
+_venv/
+*.opam
+*.opam.lock
+*.switch/
+opam-switch/
+*.install
+
+# Editor / IDE files
+.vscode/
+.idea/
+*.swp
+*~
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Nix / Flakes
+result@
+/nix/
+
