@@ -1,7 +1,7 @@
 function one()
 	io.write("Started one..\n")
 
-	local file = io.open("/home/parallels/Docs/Git/adventofcode/aoc/aoc-lua/aoc/2015/001/input.txt", "r")
+	local file = io.open("/home/parallels/Docs/Git/aoc/aoc-lua/aoc/2015/001/input.txt", "r")
 	if not file then
 		error("Failed to open file")
 	end
@@ -25,7 +25,7 @@ end
 function two()
 	io.write("Started two..\n")
 
-	local file = io.open("/home/parallels/Docs/Git/adventofcode/aoc/aoc-lua/aoc/2015/001/input.txt", "r")
+	local file = io.open("/home/parallels/Docs/Git/aoc/aoc-lua/aoc/2015/001/input.txt", "r")
 	if not file then
 		error("Failed to open file")
 	end

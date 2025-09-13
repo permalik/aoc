@@ -4,7 +4,7 @@ import System.IO (readFile)
 
 one :: IO ()
 one = do
-    contents <- readFile "/home/parallels/Docs/Git/adventofcode/aoc/aoc-haskell/aoc/2015/001/input.txt"
+    contents <- readFile "/home/parallels/Docs/Git/aoc/aoc-haskell/aoc/2015/001/input.txt"
     let chars = filter (/= '\n') contents
         flr   = foldl updateFloor 0 chars
     putStrLn $ "Santa is on floor: " ++ show flr ++ "\n"
@@ -15,7 +15,7 @@ one = do
 
 two :: IO ()
 two = do
-    contents <- readFile "/home/parallels/Docs/Git/adventofcode/aoc/aoc-haskell/aoc/2015/001/input.txt"
+    contents <- readFile "/home/parallels/Docs/Git/aoc/aoc-haskell/aoc/2015/001/input.txt"
     let chars = filter (/= '\n') contents
     findBasement chars 0 0
   where

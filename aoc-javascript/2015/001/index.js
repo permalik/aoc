@@ -3,7 +3,7 @@ import fs from "fs";
 function one() {
     console.log("Starting one..");
     return new Promise((res, rej) => {
-        fs.readFile("/home/parallels/Docs/Git/adventofcode/aoc/aoc-javascript/aoc/2015/001/input.txt", "utf8", (err, contents) => {
+        fs.readFile("/home/parallels/Docs/Git/aoc/aoc-javascript/aoc/2015/001/input.txt", "utf8", (err, contents) => {
             if (err) {
                 rej(err);
                 return;
@@ -28,7 +28,7 @@ function one() {
 function two() {
     console.log("Starting two..");
     return new Promise((res, rej) => {
-        fs.readFile("/home/parallels/Docs/Git/adventofcode/aoc/aoc-javascript/aoc/2015/001/input.txt", "utf8", (err, contents) => {
+        fs.readFile("/home/parallels/Docs/Git/aoc/aoc-javascript/aoc/2015/001/input.txt", "utf8", (err, contents) => {
             if (err) {
                 rej(err);
                 return;

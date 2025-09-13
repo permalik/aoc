@@ -18,7 +18,7 @@ fn one() !void {
     const alloc = gpa.allocator();
 
     const cwd = std.fs.cwd();
-    const contents = try cwd.readFileAlloc(alloc, "/home/parallels/Docs/Git/adventofcode/aoc/aoc-zig/aoc/2015/001/input.txt", 8192);
+    const contents = try cwd.readFileAlloc(alloc, "/home/parallels/Docs/Git/aoc/aoc-zig/aoc/2015/001/input.txt", 8192);
     defer alloc.free(contents);
 
     var floor: i32 = 0;
@@ -45,7 +45,7 @@ fn two() !void {
     const alloc = gpa.allocator();
 
     const cwd = std.fs.cwd();
-    const contents = try cwd.readFileAlloc(alloc, "/home/parallels/Docs/Git/adventofcode/aoc/aoc-zig/aoc/2015/001/input.txt", 8192);
+    const contents = try cwd.readFileAlloc(alloc, "/home/parallels/Docs/Git/aoc/aoc-zig/aoc/2015/001/input.txt", 8192);
     defer alloc.free(contents);
 
     var floor: i32 = 0;

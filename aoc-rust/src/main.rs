@@ -10,8 +10,7 @@ fn main() {
 fn one() -> io::Result<()> {
     println!("Started one..");
 
-    let mut f =
-        File::open("/home/parallels/Docs/Git/adventofcode/aoc/aoc-rust/aoc/2015/001/input.txt")?;
+    let mut f = File::open("/home/parallels/Docs/Git/aoc/aoc-rust/aoc/2015/001/input.txt")?;
 
     let mut buffer = String::new();
     f.read_to_string(&mut buffer)?;
@@ -33,8 +32,7 @@ fn one() -> io::Result<()> {
 fn two() -> io::Result<()> {
     println!("Started two..");
 
-    let mut f =
-        File::open("/home/parallels/Docs/Git/adventofcode/aoc/aoc-rust/aoc/2015/001/input.txt")?;
+    let mut f = File::open("/home/parallels/Docs/Git/aoc/aoc-rust/aoc/2015/001/input.txt")?;
 
     let mut buffer = String::new();
     f.read_to_string(&mut buffer)?;

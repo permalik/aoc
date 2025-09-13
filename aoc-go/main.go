@@ -14,7 +14,7 @@ func main() {
 func one() {
 	fmt.Println("Starting one..")
 
-	file, err := os.Open("/home/parallels/Docs/Git/adventofcode/aoc/aoc-go/aoc/2015/001/input.txt")
+	file, err := os.Open("/home/parallels/Docs/Git/aoc/aoc-go/aoc/2015/001/input.txt")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -40,7 +40,7 @@ func one() {
 func two() {
 	fmt.Println("Starting two..")
 
-	file, err := os.Open("/home/parallels/Docs/Git/adventofcode/aoc/aoc-go/aoc/2015/001/input.txt")
+	file, err := os.Open("/home/parallels/Docs/Git/aoc/aoc-go/aoc/2015/001/input.txt")
 	if err != nil {
 		log.Fatal(err)
 	}

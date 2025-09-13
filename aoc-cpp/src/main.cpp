@@ -5,7 +5,7 @@
 int one() {
     std::cout << "Started one.." << std::endl;
 
-	std::string fname = "/home/parallels/Docs/Git/adventofcode/aoc/aoc-cpp/aoc/2015/001/input.txt";
+	std::string fname = "/home/parallels/Docs/Git/aoc/aoc-cpp/aoc/2015/001/input.txt";
 	std::ifstream file(fname);
 	if (!file) {
 		std::cerr << "Failed to open file\n";
@@ -30,7 +30,7 @@ int one() {
 int two() {
     std::cout << "Started two.." << std::endl;
 
-	std::string fname = "/home/parallels/Docs/Git/adventofcode/aoc/aoc-cpp/aoc/2015/001/input.txt";
+	std::string fname = "/home/parallels/Docs/Git/aoc/aoc-cpp/aoc/2015/001/input.txt";
 	std::ifstream file(fname);
 	if (!file) {
 		std::cerr << "Failed to open file\n";

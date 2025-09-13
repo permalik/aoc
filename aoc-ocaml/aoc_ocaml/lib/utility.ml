@@ -1,5 +1,5 @@
 let create_input_path date =
-	"/home/parallels/Docs/Git/adventofcode/aoc/aoc-ocaml/aoc/" ^ date ^ "/input.txt"
+	"/home/parallels/Docs/Git/aoc/aoc-ocaml/aoc/" ^ date ^ "/input.txt"
 
 let read_file filename =
 	let ic = open_in filename in
