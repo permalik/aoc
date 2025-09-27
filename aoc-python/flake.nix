@@ -34,7 +34,7 @@
           ];
 
           shellHook = ''
-            cd aoc-python
+            cd /home/permalik/chamber/studio/grid/aoc/aoc-python
 
             VENV=.venv
             if [ ! -d $VENV ]; then
